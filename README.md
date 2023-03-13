@@ -1,6 +1,6 @@
 # Primes & Pthreads | Sieve of Eratosthenes
 
-- [GeeksForGeeks Methodology: Sive of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+- [GeeksForGeeks Methodology: Sieve of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 
 This lab introduces the implementation of pthreads from the `<pthread.h>` C library. Specifically, this implementation will use a mutex lock and unlock to handle bit manipulation of a bit block. Each bit block is 32-bits and every mask across the bit block will be a non-prime value.
 
