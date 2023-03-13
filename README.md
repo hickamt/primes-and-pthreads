@@ -134,5 +134,5 @@ Upper Bound : Number of Cores : Real Time in Seconds
   1000000000   16     real 57.73
   1000000000   20     real 50.63
   1000000000   25     real 46.65
-  1,000,000,000   30     real 47.10
+  1000000000   30     real 47.10
 ```
