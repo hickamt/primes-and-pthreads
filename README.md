@@ -9,7 +9,7 @@ When the process is finished, all prime values up to a given upper_bound will be
 ## View Program Online: VSCode
 
 <a href="https://vscode.dev/github/hickamt/primes-and-pthreads">
-<img src="vscode.png" alt="vscode button" width="auto" height="50px" />
+<img src="./img/vscode.png" alt="vscode button" width="auto" height="50px" />
 </a>
 
 ## Run Program & Command Line Flags
