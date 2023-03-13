@@ -32,7 +32,7 @@ $ ./primesMT -t # -u #
 
 NPM Command Line Arguments:
 
-````c
+```c
 // Build only
 $ npm run build
 
@@ -53,7 +53,7 @@ $ npm run menu
 $ npm run menu
 ```
 
-## Testing
+## Run the Bash Test
 
 A testPrimes.bash script will run multiple tests from 1 to 20 threads and compute the time and accuracy of this programs implementation.
 
@@ -68,5 +68,7 @@ $ bash testPrimes.bash
 ```c
 // Make Clean
 $ make clean
+
+// npm
+$ npm run clean
 ```
-````
