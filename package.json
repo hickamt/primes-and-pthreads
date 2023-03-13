@@ -1,0 +1,16 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gcc -Wall -Wshadow -Wextra -Wunreachable-code -Wredundant-decls -Wmissing-declarations -Wold-style-definition -Wmissing-prototypes -Wdeclaration-after-statement -Wno-return-local-addr -Wunsafe-loop-optimizations -Wuninitialized *.c -o primesMT -lm -pthread",
+    "dev": "npm run build && ./primesMT -t 10 -u 100000",
+    "valgrind": "npm run build && valgrind --show-reachable=yes --leak-check=full --track-origins=yes -s ./primesMT",
+    "test": "npm run clean && bash testPrimes.bash",
+    "clean": "rm *.txt primesMT",
+    "menu": "npm run build && ./primesMT -h"
+  },
+  "author": "",
+  "license": "ISC"
+}
